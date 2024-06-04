@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import MovieList from '../MovieList';
-import GenreFilter from '../GenreFilter';
+import GenreFilter from './GenreFilter';
 
 const movies = [
   { title: 'The Shawshank Redemption', genre: 'Drama', year: 1994 },
